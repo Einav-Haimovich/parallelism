@@ -152,3 +152,9 @@ dotnet run
 The `concurrent-collections` app is a MAUI application and requires the .NET MAUI workload. All other folders are console apps.
 
 Open `parallel/parallel.slnx` in Visual Studio or Rider to browse all projects in one solution.
+
+---
+
+Thanks to Brandon Minnick for the course — [From Zero to Hero: Parallel Programming in C#](https://dometrain.com/course/from-zero-to-hero-parallel-programming-in-csharp/).
+
+[Certificate of completion](<certificate/Parallel Programming in C# - Einav Haimovich.pdf>)
