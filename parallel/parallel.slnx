@@ -1,0 +1,18 @@
+<Solution>
+  <Project Path="task-basics/TaskBasics.csproj" />
+  <Project Path="async-vs-parallel/AsyncVsParallel.csproj" />
+  <Project Path="parallel-basics/ParallelBasics.csproj" />
+  <Project Path="deadlocks/Deadlocks.csproj" />
+  <Project Path="race-conditions/RaceConditions.csproj" />
+  <Project Path="task-when-all/TaskWhenAll.csproj" />
+  <Project Path="task-when-any/TaskWhenAny.csproj" />
+  <Project Path="async-streams/AsyncStreams.csproj" />
+  <Project Path="parallel-invoke/ParallelInvoke.csproj" />
+  <Project Path="parallel-for/ParallelFor.csproj" />
+  <Project Path="parallel-for-async/ParallelForAsync.csproj" />
+  <Project Path="parallel-foreach/ParallelForEach.csproj" />
+  <Project Path="parallel-foreach-async/ParallelForEachAsync.csproj" />
+  <Project Path="concurrent-collections/StockWatch.csproj" />
+  <Project Path="channels/Channels.csproj" />
+  <Project Path="parallel-linq/ParallelLinq.csproj" />
+</Solution>

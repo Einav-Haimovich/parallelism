@@ -1,0 +1,28 @@
+using System.Diagnostics;
+
+namespace ParallelFor;
+
+public abstract class Food
+{
+	readonly TimeSpan _cookTime;
+
+	protected Food(TimeSpan cookTime)
+	{
+		_cookTime = cookTime;
+		Name = GetType().Name;
+	}
+
+	public string Name { get; }
+
+	public void Cook(int orderNumber = 0)
+	{
+		Trace.WriteLine($"Cooking {Name} for Order Number {orderNumber} on Thread {Environment.CurrentManagedThreadId}");
+		Thread.Sleep(_cookTime);
+		Trace.WriteLine($"{Name} Completed for Order Number {orderNumber} on Thread {Environment.CurrentManagedThreadId}");
+	}
+}
+
+public class Turkey() : Food(TimeSpan.FromSeconds(5));
+public class MashedPotatoes() : Food(TimeSpan.FromSeconds(2));
+public class Gravy() : Food(TimeSpan.FromSeconds(1));
+public class Stuffing() : Food(TimeSpan.FromSeconds(2));
